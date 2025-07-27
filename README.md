@@ -120,30 +120,37 @@ Here's a structured and properly formatted section for your GitHub README, detai
 
 ## 🛠️ Tools & Technologies
 
-This project leverages a robust set of tools and technologies to perform data analysis, machine learning, and interactive visualization.
+This project utilizes a comprehensive stack of tools and technologies for data analysis, machine learning, and interactive visualization:
 
-* **Python:** The foundational programming language for all analytical scripts and model development.
-* **Data Manipulation & Analysis:**
-    * **Pandas:** Utilized extensively for efficient data loading, cleaning, transformation, and analysis of trading and market sentiment data (Fear & Greed Index).
-    * **NumPy:** Employed for high-performance numerical operations and mathematical computations throughout the analysis.
-* **Data Visualization:**
-    * **Matplotlib:** Used for creating static, animated, and interactive visualizations.
-    * **Seaborn:** Built on Matplotlib, it provided a high-level interface for drawing attractive and informative statistical graphics, enhancing the visual understanding of data relationships.
-* **Machine Learning:**
-    * **Scikit-learn:** The primary library for building and evaluating our predictive model.
-        * `RandomForestClassifier`: The chosen algorithm for the classification task.
-        * `train_test_split`: For robust splitting of data into training and testing sets to evaluate model generalization.
-        * `accuracy_score` & `classification_report`: Metrics used to comprehensively assess the model's performance.
-* **Development Environment & Interactivity:**
-    * **IPython / Google Colab:** The interactive environment for executing code, developing the analysis, and presenting findings. Google Colab served as the cloud-based platform.
-    * **Ipywidgets:** Integrated to build an interactive user interface (UI) directly within the notebook, enabling real-time testing of the machine learning model.
-* **AI-Assisted Development:**
-    * **Large Language Models (LLMs):** Leveraged as an invaluable development assistant for various tasks including:
-        * Code generation
-        * Debugging support
-        * Generating explanatory text and documentation
-        This significantly accelerated the development workflow.
-    * **Prompt Engineering:** Systematic techniques were applied to effectively communicate with and guide the LLM, ensuring the generated outputs were precise, relevant, and aligned with the project's analytical objectives.
+### 🐍 Programming Language
+- **Python**: Core language used for scripting, data manipulation, modeling, and visualization.
+
+### 📊 Data Manipulation & Analysis
+- **Pandas**: For data loading, cleaning, transformation, and analysis, including trading metrics and market sentiment (Fear & Greed Index).
+- **NumPy**: Used for efficient numerical and mathematical operations.
+
+### 📈 Data Visualization
+- **Matplotlib**: For creating static, animated, and interactive plots.
+- **Seaborn**: Built on top of Matplotlib, used for statistical visualization and enhanced data storytelling.
+
+### 🤖 Machine Learning
+- **Scikit-learn**: Primary library used for building and evaluating machine learning models.
+  - `RandomForestClassifier`: Chosen classification algorithm.
+  - `train_test_split`: To split data into training and testing sets.
+  - `accuracy_score` & `classification_report`: Metrics to evaluate model performance.
+
+### 💻 Development Environment & Interactivity
+- **Google Colab / IPython**: Cloud-based, interactive coding environment used for development and experimentation.
+- **ipywidgets**: Enabled interactive UI components within the notebook to test and explore model behavior.
+
+### 🧠 AI-Assisted Development
+- **Large Language Models (LLMs)**: Used for:
+  - Generating code snippets
+  - Debugging support
+  - Writing explanatory documentation
+- **Prompt Engineering**: Applied to guide LLMs effectively for context-aware, precise output generation, enhancing productivity and accuracy.
+
+
 
 ---
 
